@@ -1,0 +1,21 @@
+#hero-section {
+  padding-top: 2rem;
+  background-color: #cefcff;
+}
+
+#project {
+  background-color: #cefcff;
+}
+
+#contact {
+  padding-top: 2rem;
+}
+
+#footer {
+  width: 100%;
+}
+
+.project-img {
+  position: absolute;
+  height: 60px;
+}
