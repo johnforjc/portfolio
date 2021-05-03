@@ -3,12 +3,12 @@
   background-color: #cefcff;
 }
 
-#project {
-  background-color: #cefcff;
+.navbar-text {
+  color: #ffffff !important;
 }
 
-#contact {
-  padding-top: 2rem;
+#project {
+  background-color: #cefcff;
 }
 
 #footer {
