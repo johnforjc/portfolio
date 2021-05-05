@@ -18,7 +18,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm overflow-hidden">
       <div class="container">
         <img class="d-block me-2" src="./img/logo.png" alt="" width="40" height="40" />
         <a class="navbar-brand" href="#">Jonathan Alphabert</a>
@@ -38,7 +38,7 @@
     <!-- Akhir Navbar -->
 
     <!-- Hero Section -->
-    <section class="text-center" id="hero-section">
+    <section class="text-center  overflow-hidden" id="hero-section">
       <img class="d-block mx-auto mb-4" src="./img/logo.png" alt="" width="72" height="72" />
       <h1 class="display-4 fw-bold">Jonathan Alphabert</h1>
       <div class="col-lg-6 mx-auto">
@@ -55,7 +55,7 @@
     <!-- Akhir Hero Section -->
 
     <!-- About Section -->
-    <section id="about">
+    <section id="about" class=" overflow-hidden">
       <div class="container">
         <div class="row">
           <div class="col text-center fs-6">
@@ -82,7 +82,7 @@
     <!-- End of About Section -->
 
     <!-- Start of Project -->
-    <section id="project">
+    <section id="project" class=" overflow-hidden">
       <div class="container py-4">
         <div class="row text-center">
           <div class="col fs-6">
@@ -95,7 +95,7 @@
               <img src="./img/sample-landing-page.png" class="card-img-top" alt="landing page">
               <div class="card-body">
                 <h5 class="card-title text-center fs-2 fw-bold">Simple Landing Page</h5>
-                <p class="card-text fs-5">Simple and clearly landing page to make people download the e-book provided by a blog to get leads user email for promoting more that blog. This website is very responsive on any device with help from bootstrap that I use on this website.</p>
+                <p class="card-text fs-6">Simple and clearly landing page to make people download the e-book provided by a blog to get leads user email for promoting more that blog. This website is very responsive on any device with help from bootstrap that I use on this website.</p>
                 <div class="text-center">
                   <a href="#" class="btn btn-primary text-center">See website</a>
                 </div>
@@ -107,7 +107,7 @@
               <img src="./img/comp_profile.png" class="card-img-top" alt="Company Profile" />
               <div class="card-body">
                 <h5 class="card-title text-center fs-2 fw-bold">Company Profile</h5>
-                <p class="card-text fs-5">It an eye-catching for a company profile website. A very clear website that I build with HTML, CSS and Javascript. Also bootstrap makes the website more easily responsive on any device size screen.</p>
+                <p class="card-text fs-6">It an eye-catching for a company profile website. A very clear website that I build with HTML, CSS and Javascript. Also bootstrap makes the website more easily responsive on any device size screen.</p>
                 <div class="text-center">
                   <a href="#" class="btn btn-primary text-center">See website</a>
                 </div>
@@ -119,7 +119,7 @@
               <img src="./img/blood cell simulation.jpg" class="card-img-top" alt="Blood Cell Simulation" />
               <div class="card-body">
                 <h5 class="card-title text-center fs-2 fw-bold">Blood Cell Simulation</h5>
-                <p class="card-text fs-5">A simple animation website that I made with my three friends for an assignment. To build this website, we are using mostly Javascript language and the Three.JS library. </p>
+                <p class="card-text fs-6">A simple animation website that I made with my three friends for an assignment. To build this website, we are using mostly Javascript language and the Three.JS library. </p>
                 <div class="text-center">
                   <a href="https://johnforjc.github.io/final-project-yolo/" class="btn btn-primary text-center">See website</a>
                 </div>
@@ -132,7 +132,7 @@
     <!-- End of Project -->
 
     <!-- Start of Contact Me -->
-    <section id="contact">
+    <section id="contact" class=" overflow-hidden">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fill="#cefcff" fill-opacity="1" d="M0,288L48,288C96,288,192,288,288,261.3C384,235,480,181,576,181.3C672,181,768,235,864,245.3C960,256,1056,224,1152,192C1248,160,1344,128,1392,112L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
       </svg>
@@ -211,7 +211,7 @@
     <!-- End of Contact Me -->
 
     <!-- Start of Footer -->
-    <section id="footer" class="bg-primary m-0 p-0 text-center">
+    <section id="footer" class="bg-primary m-0 p-0 text-center overflow-hidden">
         <span class="text-center text-light">Created by <a class="text-light" href="https://github.com/johnforjc">Jonathan Alphabert</a></span>
       </section>
     <!-- End of Footer -->
@@ -250,6 +250,7 @@
             console.log('Success!', response);
             // Alert showed
             myAlert.classList.toggle('d-none');
+            form.reset();
           })
           .catch(error => console.error('Error!', error.message))
       })
